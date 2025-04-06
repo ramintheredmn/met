@@ -1,0 +1,2936 @@
+AutoDock-GPU version: v1.5.3-104-g2e658c318d60806bc6bb361f11f8535d5fb1fe1f
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               l.pdbqt
+Grid fld file:                             r.maps.fld
+
+Random seed:                               1728904813, 151816
+Number of runs:                            50
+Number of energy evaluations:              480000
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/ramin/Downloads/AutoDock-GPU/bin/autodock_gpu_64wi --lfile l.pdbqt --ffile r.maps.fld --nrun 50 --resnam l_wild 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             r
+Number of grid points (x, y, z):           83, 75, 71
+Grid center (x, y, z):                     22.479000, 31.596000, 56.773000A
+Grid size (x, y, z):                       30.750000, 27.750000, 26.250000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               l
+Number of atoms:                           16
+Number of rotatable bonds:                 1
+Number of atom types:                      6
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 50
+DPF> fld r.maps.fld
+DPF> move l.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    487552
+Number of generations used:                23
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+INPUT-LIGAND-PDBQT: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+INPUT-LIGAND-PDBQT: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+INPUT-LIGAND-PDBQT: REMARK H PARENT
+INPUT-LIGAND-PDBQT: REMARK Flexibility Score: inf
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: ATOM      1  C   UNL     1      -1.476  -2.152  -1.263  1.00  0.00     0.150 C 
+INPUT-LIGAND-PDBQT: ATOM      2  N   UNL     1      -0.633  -1.198  -0.539  1.00  0.00    -0.346 N 
+INPUT-LIGAND-PDBQT: ATOM      3  C   UNL     1       0.742  -1.357  -0.461  1.00  0.00     0.151 C 
+INPUT-LIGAND-PDBQT: ATOM      4  C   UNL     1       1.595  -0.546   0.176  1.00  0.00     0.216 C 
+INPUT-LIGAND-PDBQT: ATOM      5  C   UNL     1       1.030   0.623   0.891  1.00  0.00     0.244 C 
+INPUT-LIGAND-PDBQT: ATOM      6  O   UNL     1       1.743   1.407   1.509  1.00  0.00    -0.283 OA
+INPUT-LIGAND-PDBQT: ATOM      7  C   UNL     1      -0.442   0.818   0.830  1.00  0.00     0.051 A 
+INPUT-LIGAND-PDBQT: ATOM      8  C   UNL     1      -1.003   1.922   1.494  1.00  0.00     0.017 A 
+INPUT-LIGAND-PDBQT: ATOM      9  C   UNL     1      -2.378   2.128   1.453  1.00  0.00     0.040 A 
+INPUT-LIGAND-PDBQT: ATOM     10  C   UNL     1      -3.174   1.234   0.751  1.00  0.00     0.125 A 
+INPUT-LIGAND-PDBQT: ATOM     11  F   UNL     1      -4.499   1.429   0.708  1.00  0.00    -0.207 F 
+INPUT-LIGAND-PDBQT: ATOM     12  C   UNL     1      -2.626   0.135   0.090  1.00  0.00     0.066 A 
+INPUT-LIGAND-PDBQT: ATOM     13  C   UNL     1      -1.243  -0.102   0.112  1.00  0.00     0.055 A 
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   4  14
+INPUT-LIGAND-PDBQT: ATOM     14  S   UNL     1       3.337  -0.882   0.213  1.00  0.00    -0.013 S 
+INPUT-LIGAND-PDBQT: ATOM     15  C   UNL     1       3.887   0.573  -0.713  1.00  0.00     0.346 C 
+INPUT-LIGAND-PDBQT: ATOM     16  O   UNL     1       3.602  -2.211  -0.747  1.00  0.00    -0.612 OA
+INPUT-LIGAND-PDBQT: ENDBRANCH   4  14
+INPUT-LIGAND-PDBQT: TORSDOF 1
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.817  32.907  56.025 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.238  31.562  55.999 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.103  31.274  55.256 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.498  30.084  55.169 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.067  28.963  55.954 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.565  27.844  55.939 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.281  29.241  56.765 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.845  28.195  57.514 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.982  28.428  58.282 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.541  29.698  58.291 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.636  29.927  59.028 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.987  30.743  57.552 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.841  30.541  56.768 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.033  29.860  54.193 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.784  30.108  52.564 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.043  31.161  54.486 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.785  32.919  56.028 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.212  31.571  56.005 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.077  31.278  55.265 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.477  30.084  55.181 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.054  28.967  55.966 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.556  27.845  55.953 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.269  29.251  56.773 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.840  28.208  57.521 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.977  28.447  58.285 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.531  29.720  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.627  29.954  59.026 -0.10 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.970  30.761  57.553 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.823  30.554  56.772 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.010  29.853  54.209 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.756  30.099  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.017  31.151  54.502 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   3 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        3
+DOCKED: USER    Run = 3
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.810  32.907  56.036 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.562  56.013 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.097  31.271  55.271 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.493  30.079  55.187 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.064  28.961  55.975 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.563  27.842  55.963 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.279  29.243  56.784 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.844  28.199  57.536 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.981  28.435  58.302 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.538  29.706  58.308 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.634  29.938  59.044 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.983  30.748  57.567 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.837  30.543  56.784 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.028  29.852  54.212 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.777  30.103  52.583 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.035  31.150  54.508 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   4 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        4
+DOCKED: USER    Run = 4
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.812  32.898  56.031 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.234  31.552  56.007 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.100  31.262  55.264 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.496  30.071  55.180 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.066  28.952  55.968 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.565  27.833  55.954 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.280  29.233  56.778 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.844  28.189  57.529 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.980  28.424  58.297 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.539  29.695  58.304 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.633  29.926  59.041 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.984  30.738  57.562 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.838  30.534  56.778 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.032  29.844  54.203 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.775  30.131  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.025  31.126  54.522 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   5 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        5
+DOCKED: USER    Run = 5
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.774  32.924  56.042 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.208  31.574  56.013 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.072  31.278  55.275 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.478  30.082  55.186 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.063  28.964  55.963 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.571  27.840  55.946 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.278  29.251  56.769 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.856  28.206  57.511 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.994  28.447  58.273 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.541  29.723  58.286 -0.36 -0.04    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.638  29.959  59.018 -0.10 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.973  30.765  57.553 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.825  30.556  56.774 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.011  29.849  54.216 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.750  30.115  52.585 -0.27 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.008  31.137  54.523 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   6 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        6
+DOCKED: USER    Run = 6
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.832  32.904  56.027 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.252  31.560  56.000 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.121  31.271  55.252 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.515  30.081  55.165 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.080  28.961  55.955 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.577  27.843  55.939 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.290  29.240  56.771 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.850  28.195  57.525 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.983  28.429  58.297 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.543  29.699  58.307 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.635  29.929  59.049 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.993  30.742  57.563 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.851  30.540  56.774 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.055  29.856  54.182 -0.65 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.813  30.105  52.557 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.063  31.156  54.471 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   7 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        7
+DOCKED: USER    Run = 7
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.801  32.918  56.034 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.230  31.570  56.007 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.097  31.275  55.265 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.499  30.081  55.178 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.076  28.964  55.963 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.580  27.842  55.947 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.288  29.249  56.773 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.859  28.206  57.521 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.994  28.446  58.288 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.546  29.719  58.298 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.640  29.955  59.035 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.985  30.761  57.559 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.840  30.553  56.776 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.035  29.849  54.202 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.780  30.119  52.575 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.031  31.136  54.508 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   8 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        8
+DOCKED: USER    Run = 8
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.93 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.22 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.08 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.14 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.22 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.23 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.23 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      21.688  33.827  56.036 -0.35 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      20.550  34.329  56.809 -0.17 -0.06    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      20.640  35.486  57.567 -0.35 +0.01    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      19.663  36.023  58.307 -0.34 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      18.363  35.311  58.352 -0.43 +0.05    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      17.421  35.731  59.017 -0.79 -0.08    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      18.237  34.064  57.554 -0.47 +0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      17.013  33.374  57.573 -0.55 +0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      16.867  32.204  56.835 -0.57 +0.01    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      17.940  31.739  56.087 -0.41 +0.03    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      17.804  30.613  55.374 -0.12 -0.05    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      19.159  32.418  56.063 -0.35 +0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      19.339  33.600  56.797 -0.35 +0.01    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.924  37.504  59.249 -0.61 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.482  36.842  60.875 -0.24 -0.03    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.736  38.580  58.811 +0.01 -0.11    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   9 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        9
+DOCKED: USER    Run = 9
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.819  32.906  56.021 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.239  31.561  55.996 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.105  31.273  55.253 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.499  30.082  55.168 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.067  28.962  55.955 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.564  27.844  55.941 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.281  29.241  56.766 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.844  28.196  57.517 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.980  28.430  58.285 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.699  58.293 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.635  29.929  59.030 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.987  30.743  57.552 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.841  30.541  56.767 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.035  29.858  54.190 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.787  30.103  52.562 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.045  31.160  54.481 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   10 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        10
+DOCKED: USER    Run = 10
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.793  32.907  56.034 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.216  31.561  56.005 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.080  31.274  55.263 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.477  30.082  55.175 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.050  28.960  55.956 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.550  27.841  55.938 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.266  29.239  56.765 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.833  28.191  57.510 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.970  28.424  58.276 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.527  29.695  58.287 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.624  29.925  59.023 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.970  30.741  57.552 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.823  30.540  56.770 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.011  29.859  54.201 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.756  30.122  52.572 -0.27 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.016  31.152  54.506 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   11 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        11
+DOCKED: USER    Run = 11
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.822  32.908  56.041 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.243  31.563  56.011 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.110  31.276  55.265 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.505  30.086  55.175 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.073  28.964  55.961 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.570  27.845  55.943 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.285  29.241  56.775 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.847  28.194  57.524 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.981  28.427  58.295 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.697  58.307 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.634  29.925  59.048 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.989  30.742  57.568 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.844  30.542  56.780 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.043  29.863  54.195 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.797  30.119  52.569 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.050  31.161  54.492 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   12 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        12
+DOCKED: USER    Run = 12
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.800  32.894  56.030 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.225  31.547  56.008 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.089  31.253  55.268 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.488  30.060  55.186 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.064  28.943  55.972 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.565  27.823  55.960 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.279  29.228  56.779 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.848  28.185  57.528 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.986  28.423  58.292 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.541  29.695  58.298 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.637  29.930  59.032 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.982  30.737  57.558 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.834  30.530  56.777 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.022  29.830  54.213 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.765  30.090  52.583 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.023  31.122  54.516 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   13 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        13
+DOCKED: USER    Run = 13
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.840  32.892  56.038 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.252  31.550  56.011 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.115  31.270  55.269 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.502  30.084  55.182 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.066  28.958  55.965 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.556  27.843  55.949 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.283  29.228  56.775 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.841  28.178  57.522 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.980  28.403  58.288 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.547  29.669  58.299 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.644  29.891  59.035 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.999  30.719  57.561 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.850  30.525  56.778 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.035  29.870  54.207 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.790  30.095  52.576 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.062  31.186  54.489 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   14 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        14
+DOCKED: USER    Run = 14
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.810  32.914  56.037 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.237  31.567  56.008 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.104  31.275  55.265 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.505  30.082  55.176 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.080  28.962  55.959 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.582  27.841  55.941 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.292  29.245  56.770 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.861  28.199  57.517 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.997  28.437  58.285 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.550  29.709  58.297 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.644  29.942  59.035 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.991  30.753  57.560 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.846  30.548  56.775 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.041  29.853  54.199 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.792  30.100  52.570 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.048  31.152  54.490 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   15 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        15
+DOCKED: USER    Run = 15
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.806  32.921  56.039 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.573  56.008 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.102  31.282  55.261 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.502  30.088  55.170 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.074  28.969  55.956 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.576  27.848  55.937 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.284  29.252  56.771 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.850  28.206  57.521 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.982  28.443  58.293 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.536  29.716  58.306 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.627  29.949  59.048 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.980  30.759  57.567 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.838  30.554  56.778 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.042  29.860  54.188 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.798  30.113  52.563 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.046  31.156  54.480 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   16 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        16
+DOCKED: USER    Run = 16
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.820  32.900  56.026 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.238  31.557  56.003 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.102  31.270  55.261 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.495  30.080  55.177 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.063  28.960  55.964 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.558  27.842  55.951 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.278  29.237  56.773 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.841  28.191  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.978  28.423  58.289 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.692  58.296 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.636  29.920  59.032 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.988  30.737  57.555 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.840  30.536  56.773 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.028  29.858  54.203 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.777  30.106  52.573 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.040  31.159  54.498 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   17 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        17
+DOCKED: USER    Run = 17
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.799  32.899  56.035 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.225  31.552  56.009 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.091  31.260  55.268 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.490  30.067  55.181 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.065  28.948  55.966 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.567  27.827  55.950 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.279  29.231  56.775 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.848  28.187  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.984  28.424  58.289 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.538  29.696  58.298 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.634  29.930  59.034 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.980  30.739  57.560 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.833  30.533  56.777 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.025  29.838  54.206 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.771  30.100  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.026  31.129  54.509 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   18 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        18
+DOCKED: USER    Run = 18
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.810  32.910  56.026 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.237  31.563  56.003 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.101  31.269  55.264 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.501  30.076  55.180 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.077  28.959  55.965 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.579  27.838  55.953 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.293  29.244  56.772 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.863  28.200  57.521 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      24.001  28.440  58.285 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.555  29.712  58.291 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.651  29.947  59.024 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.994  30.754  57.552 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.847  30.546  56.771 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.034  29.845  54.209 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.776  30.107  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.035  31.136  54.512 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   19 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        19
+DOCKED: USER    Run = 19
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.22 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.845  32.896  55.989 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.265  31.551  55.979 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.135  31.253  55.233 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.530  30.061  55.160 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.095  28.952  55.965 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.592  27.833  55.962 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.304  29.241  56.778 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.864  28.205  57.545 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.996  28.449  58.315 -0.51 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.555  29.719  58.310 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.647  29.958  59.050 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      24.006  30.754  57.553 -0.32 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.864  30.541  56.765 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.071  29.824  54.179 -0.65 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.810  30.149  52.558 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.041  31.083  54.516 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   20 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        20
+DOCKED: USER    Run = 20
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.815  32.911  56.032 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.238  31.565  56.005 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.105  31.275  55.260 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.502  30.084  55.172 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.071  28.964  55.959 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.570  27.845  55.943 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.284  29.244  56.771 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.848  28.199  57.522 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.982  28.434  58.291 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.705  58.302 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.633  29.935  59.041 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.986  30.749  57.561 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.842  30.545  56.775 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.039  29.858  54.193 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.792  30.111  52.566 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.045  31.156  54.488 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   21 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        21
+DOCKED: USER    Run = 21
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.808  32.914  56.020 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.231  31.568  56.000 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.096  31.275  55.261 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.493  30.083  55.180 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.067  28.966  55.968 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.566  27.846  55.958 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.282  29.250  56.774 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.850  28.208  57.526 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.988  28.446  58.290 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.544  29.718  58.293 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.641  29.952  59.027 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.987  30.758  57.551 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.839  30.552  56.771 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.026  29.852  54.208 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.764  30.138  52.579 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.018  31.133  54.528 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   22 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        22
+DOCKED: USER    Run = 22
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.794  32.903  56.035 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.221  31.555  56.010 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.086  31.262  55.271 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.486  30.068  55.185 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.064  28.950  55.969 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.566  27.829  55.955 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.278  29.234  56.776 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.850  28.190  57.524 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.987  28.429  58.288 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.702  58.296 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.636  29.936  59.030 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.979  30.744  57.558 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.832  30.537  56.777 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.020  29.838  54.213 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.764  30.096  52.583 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.022  31.131  54.514 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   23 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        23
+DOCKED: USER    Run = 23
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.804  32.909  56.037 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.225  31.564  56.004 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.092  31.279  55.259 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.487  30.088  55.166 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.056  28.964  55.947 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.554  27.845  55.926 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.269  29.240  56.761 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.833  28.190  57.506 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.968  28.421  58.276 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.526  29.691  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.621  29.918  59.031 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.973  30.739  57.556 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.828  30.540  56.770 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.024  29.868  54.187 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.778  30.118  52.560 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.035  31.169  54.481 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   24 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        24
+DOCKED: USER    Run = 24
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.804  32.912  56.019 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.229  31.566  55.994 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.096  31.274  55.249 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.495  30.081  55.163 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.066  28.963  55.951 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.566  27.843  55.937 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.278  29.246  56.763 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.844  28.202  57.515 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.978  28.440  58.283 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.534  29.711  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.627  29.944  59.031 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.979  30.754  57.550 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.834  30.548  56.765 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.032  29.852  54.185 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.783  30.109  52.558 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.035  31.147  54.481 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   25 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        25
+DOCKED: USER    Run = 25
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.804  32.906  56.039 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.223  31.562  56.009 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.086  31.279  55.269 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.479  30.089  55.179 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.049  28.965  55.958 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.545  27.847  55.940 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.266  29.239  56.766 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.832  28.188  57.509 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.971  28.417  58.274 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.532  29.687  58.286 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.630  29.911  59.021 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.977  30.735  57.553 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.828  30.538  56.772 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.010  29.872  54.207 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.758  30.114  52.576 -0.27 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.027  31.177  54.501 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   26 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        26
+DOCKED: USER    Run = 26
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.807  32.895  56.025 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.225  31.551  56.002 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.088  31.264  55.263 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.481  30.075  55.179 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.051  28.953  55.963 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.547  27.835  55.949 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.268  29.230  56.769 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.833  28.183  57.517 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.973  28.415  58.280 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.534  29.684  58.287 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.632  29.912  59.020 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.979  30.730  57.549 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.830  30.530  56.769 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.012  29.853  54.207 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.752  30.127  52.578 -0.27 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.014  31.142  54.523 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   27 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        27
+DOCKED: USER    Run = 27
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.810  32.899  56.037 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.553  56.012 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.099  31.263  55.268 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.495  30.072  55.181 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.065  28.953  55.969 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.564  27.833  55.954 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.278  29.234  56.781 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.842  28.189  57.532 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.977  28.424  58.300 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.535  29.695  58.309 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.629  29.926  59.047 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.981  30.738  57.568 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.836  30.534  56.782 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.032  29.846  54.203 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.781  30.110  52.577 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.034  31.137  54.506 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   28 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        28
+DOCKED: USER    Run = 28
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.801  32.914  56.036 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.228  31.566  56.008 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.094  31.275  55.266 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.494  30.081  55.178 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.070  28.962  55.960 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.572  27.841  55.944 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.283  29.245  56.770 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.853  28.199  57.517 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.989  28.437  58.284 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.542  29.709  58.295 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.637  29.942  59.031 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.983  30.753  57.558 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.837  30.547  56.774 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.030  29.853  54.202 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.776  30.115  52.574 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.031  31.145  54.505 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   29 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        29
+DOCKED: USER    Run = 29
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.802  32.918  56.037 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.228  31.571  56.010 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.094  31.279  55.268 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.493  30.087  55.181 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.068  28.968  55.965 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.569  27.847  55.950 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.281  29.250  56.775 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.850  28.205  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.986  28.442  58.289 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.541  29.714  58.299 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.636  29.947  59.035 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.982  30.757  57.561 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.836  30.552  56.778 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.028  29.858  54.206 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.775  30.117  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.031  31.152  54.507 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   30 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        30
+DOCKED: USER    Run = 30
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.859  32.887  56.024 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.268  31.547  55.998 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.131  31.269  55.255 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.515  30.084  55.169 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.074  28.959  55.955 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.561  27.844  55.941 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.291  29.227  56.766 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.845  28.175  57.516 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.983  28.399  58.284 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.554  29.664  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.651  29.883  59.030 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      24.010  30.713  57.552 -0.32 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.862  30.521  56.768 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.048  29.873  54.193 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.802  30.109  52.564 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.072  31.185  54.483 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   31 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        31
+DOCKED: USER    Run = 31
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.803  32.913  56.015 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.229  31.567  55.997 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.093  31.271  55.258 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.492  30.078  55.178 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.067  28.963  55.968 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.568  27.843  55.959 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.282  29.250  56.775 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.851  28.209  57.528 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.988  28.450  58.292 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.543  29.722  58.294 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.639  29.958  59.027 -0.10 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.984  30.761  57.550 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.837  30.552  56.769 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.026  29.845  54.206 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.768  30.112  52.576 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.023  31.133  54.512 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   32 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        32
+DOCKED: USER    Run = 32
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.799  32.908  56.026 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.226  31.561  56.004 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.089  31.267  55.266 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.489  30.073  55.184 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.066  28.956  55.969 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.568  27.835  55.957 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.282  29.241  56.774 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.853  28.199  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.992  28.438  58.286 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.546  29.710  58.291 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.643  29.946  59.023 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.985  30.752  57.552 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.836  30.544  56.772 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.021  29.842  54.213 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.760  30.116  52.583 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.017  31.127  54.526 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   33 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        33
+DOCKED: USER    Run = 33
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.801  32.918  56.031 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.228  31.570  56.003 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.097  31.277  55.258 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.497  30.084  55.169 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.070  28.966  55.956 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.573  27.844  55.939 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.281  29.250  56.769 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.848  28.206  57.520 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.982  28.445  58.290 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.535  29.717  58.301 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.627  29.951  59.041 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.978  30.759  57.560 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.835  30.553  56.773 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.036  29.853  54.190 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.785  30.126  52.564 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.031  31.140  54.495 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   34 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        34
+DOCKED: USER    Run = 34
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.826  32.897  56.020 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.245  31.552  55.998 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.110  31.263  55.257 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.504  30.073  55.174 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.073  28.954  55.963 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.569  27.835  55.951 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.288  29.234  56.772 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.851  28.189  57.524 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.988  28.424  58.290 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.549  29.693  58.295 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.645  29.924  59.031 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.995  30.736  57.553 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.849  30.533  56.770 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.038  29.847  54.200 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.780  30.134  52.573 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.033  31.129  54.520 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   35 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        35
+DOCKED: USER    Run = 35
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.792  32.915  56.046 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.224  31.565  56.010 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.096  31.272  55.260 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.502  30.076  55.165 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.077  28.956  55.947 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.584  27.833  55.924 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.285  29.241  56.765 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.854  28.196  57.511 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.985  28.435  58.285 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.533  29.710  58.304 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.623  29.944  59.047 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.974  30.753  57.567 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.833  30.546  56.777 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.043  29.845  54.180 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.797  30.121  52.558 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.036  31.130  54.485 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   36 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        36
+DOCKED: USER    Run = 36
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.793  32.911  56.028 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.222  31.563  56.004 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.088  31.267  55.264 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.490  30.073  55.180 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.068  28.956  55.965 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.572  27.834  55.951 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.282  29.243  56.772 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.854  28.200  57.521 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.991  28.441  58.285 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.542  29.714  58.293 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.638  29.951  59.027 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.981  30.755  57.554 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.834  30.546  56.772 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.024  29.840  54.207 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.767  30.105  52.578 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.021  31.128  54.512 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   37 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        37
+DOCKED: USER    Run = 37
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.812  32.903  56.017 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.233  31.558  55.995 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.097  31.269  55.255 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.491  30.078  55.172 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.062  28.959  55.960 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.558  27.841  55.948 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.277  29.239  56.768 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.842  28.195  57.519 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.980  28.430  58.284 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.539  29.700  58.289 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.636  29.930  59.024 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.985  30.743  57.547 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.837  30.539  56.766 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.025  29.852  54.199 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.766  30.130  52.571 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.023  31.138  54.514 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   38 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        38
+DOCKED: USER    Run = 38
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.814  32.918  56.024 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.240  31.571  56.001 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.106  31.277  55.259 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.506  30.083  55.175 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.080  28.967  55.963 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.582  27.846  55.950 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.294  29.252  56.772 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.862  28.209  57.523 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.998  28.449  58.289 -0.52 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.552  29.721  58.296 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.647  29.956  59.032 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.994  30.762  57.554 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.848  30.554  56.771 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.041  29.852  54.200 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.787  30.116  52.572 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.040  31.142  54.503 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   39 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        39
+DOCKED: USER    Run = 39
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.805  32.922  56.029 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.574  56.001 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.103  31.280  55.252 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.504  30.087  55.164 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.075  28.970  55.954 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.577  27.848  55.937 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.283  29.255  56.771 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.847  28.212  57.525 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.978  28.451  58.299 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.531  29.724  58.310 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.621  29.959  59.053 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.977  30.765  57.566 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.836  30.557  56.775 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.046  29.855  54.179 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.805  30.109  52.555 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.047  31.149  54.469 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   40 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        40
+DOCKED: USER    Run = 40
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.22 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.802  32.883  56.023 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.223  31.538  56.000 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.087  31.249  55.260 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.481  30.058  55.177 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.053  28.939  55.962 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.550  27.820  55.950 -0.89 -0.06    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.268  29.218  56.770 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.834  28.173  57.519 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.972  28.407  58.284 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.531  29.677  58.291 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.628  29.908  59.025 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.976  30.721  57.551 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.828  30.518  56.769 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.015  29.833  54.204 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.762  30.080  52.573 -0.27 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.025  31.134  54.498 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   41 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        41
+DOCKED: USER    Run = 41
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.804  32.912  56.037 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.564  56.004 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.101  31.273  55.256 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.502  30.080  55.162 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.075  28.959  55.945 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.578  27.838  55.924 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.284  29.241  56.761 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.851  28.194  57.509 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.983  28.430  58.281 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.536  29.703  58.298 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.627  29.935  59.040 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.980  30.748  57.560 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.837  30.544  56.771 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.042  29.853  54.179 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.802  30.090  52.553 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.053  31.157  54.460 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   42 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        42
+DOCKED: USER    Run = 42
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.810  32.914  56.027 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.230  31.569  56.003 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.094  31.281  55.263 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.488  30.091  55.178 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.060  28.970  55.962 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.557  27.851  55.949 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.276  29.249  56.770 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.842  28.202  57.518 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.980  28.436  58.282 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.540  29.706  58.290 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.637  29.935  59.024 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.984  30.750  57.551 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.836  30.549  56.770 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.021  29.867  54.206 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.764  30.133  52.576 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.025  31.159  54.514 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   43 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        43
+DOCKED: USER    Run = 43
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.858  32.874  56.020 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.265  31.535  55.999 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.127  31.256  55.259 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.510  30.071  55.177 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.071  28.947  55.964 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.557  27.833  55.953 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.289  29.216  56.772 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.845  28.166  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.985  28.391  58.287 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.556  29.656  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.655  29.876  59.026 -0.08 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      24.011  30.704  57.550 -0.32 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.861  30.511  56.769 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.041  29.858  54.204 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.789  30.106  52.574 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.060  31.164  54.504 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   44 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        44
+DOCKED: USER    Run = 44
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.808  32.903  56.026 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.232  31.557  56.005 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.097  31.263  55.264 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.496  30.071  55.182 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.069  28.954  55.970 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.570  27.834  55.959 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.283  29.238  56.778 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.851  28.196  57.530 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.988  28.435  58.295 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.544  29.706  58.300 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.639  29.941  59.035 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.986  30.747  57.558 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.840  30.540  56.776 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.030  29.840  54.208 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.773  30.114  52.580 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.026  31.126  54.518 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   45 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        45
+DOCKED: USER    Run = 45
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.96 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.794  32.900  56.025 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.221  31.553  56.004 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.088  31.256  55.262 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.488  30.062  55.180 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.062  28.948  55.972 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.564  27.827  55.961 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.274  29.236  56.782 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.842  28.196  57.537 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.976  28.438  58.305 -0.52 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.530  29.710  58.309 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.623  29.948  59.046 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.972  30.749  57.563 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.828  30.538  56.779 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.026  29.828  54.204 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.770  30.104  52.577 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.017  31.110  54.512 +0.01 -0.17    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   46 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        46
+DOCKED: USER    Run = 46
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.802  32.925  56.038 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.233  31.576  56.005 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.106  31.282  55.253 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.510  30.087  55.160 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.082  28.969  55.947 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.588  27.846  55.926 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.288  29.255  56.767 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.854  28.211  57.519 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.983  28.451  58.295 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.532  29.725  58.312 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.620  29.961  59.057 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.977  30.767  57.570 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.838  30.559  56.777 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.055  29.855  54.172 -0.65 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.815  30.117  52.550 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.051  31.145  54.464 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   47 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        47
+DOCKED: USER    Run = 47
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.803  32.906  56.047 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.226  31.560  56.018 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.090  31.272  55.276 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.487  30.081  55.187 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.059  28.959  55.969 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.558  27.840  55.951 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.274  29.237  56.778 -0.44 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.841  28.190  57.523 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.979  28.423  58.289 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.536  29.693  58.301 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.632  29.922  59.037 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.979  30.739  57.566 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.832  30.538  56.783 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.021  29.858  54.213 -0.63 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.770  30.102  52.583 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.033  31.160  54.506 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   48 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        48
+DOCKED: USER    Run = 48
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.27 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.27 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.821  32.893  56.030 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.237  31.551  56.002 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.100  31.268  55.260 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.491  30.080  55.172 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.058  28.956  55.954 -0.41 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.551  27.839  55.937 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.274  29.228  56.763 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.835  28.178  57.509 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.974  28.406  58.275 -0.54 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.537  29.674  58.287 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.635  29.898  59.022 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.986  30.722  57.550 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.838  30.526  56.767 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.024  29.864  54.197 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.775  30.103  52.567 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.043  31.172  54.488 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   49 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        49
+DOCKED: USER    Run = 49
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.792  32.929  56.046 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.223  31.579  56.016 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.088  31.285  55.276 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.493  30.090  55.186 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.074  28.971  55.964 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.580  27.848  55.946 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.289  29.256  56.772 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.864  28.211  57.515 -0.62 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      24.001  28.450  58.279 -0.53 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.550  29.724  58.292 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.646  29.959  59.027 -0.10 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.985  30.768  57.559 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.838  30.560  56.778 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.026  29.859  54.214 -0.64 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.774  30.097  52.582 -0.28 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.036  31.161  54.501 +0.01 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   50 / 50
+Time taken for this run:   0.052s
+
+DOCKED: MODEL        50
+DOCKED: USER    Run = 50
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -5.97 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -6.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.23 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -6.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.24 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.24 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK SMILES Cn1cc([S+](C)[O-])c(=O)c2ccc(F)cc21
+DOCKED: REMARK SMILES IDX 1 1 2 2 3 3 4 4 8 5 9 6 10 7 11 8 12 9 13 10 14 11 15 12
+DOCKED: REMARK SMILES IDX 16 13 5 14 6 15 7 16
+DOCKED: REMARK H PARENT
+DOCKED: REMARK Flexibility Score: inf
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      22.815  32.919  56.020 -0.37 +0.03    +0.150 C  
+DOCKED: ATOM      2  N   UNL     1      22.243  31.571  55.992 -0.19 -0.03    -0.346 N  
+DOCKED: ATOM      3  C   UNL     1      21.118  31.275  55.238 -0.37 +0.02    +0.151 C  
+DOCKED: ATOM      4  C   UNL     1      20.519  30.081  55.149 -0.36 +0.02    +0.216 C  
+DOCKED: ATOM      5  C   UNL     1      21.085  28.966  55.945 -0.40 -0.00    +0.244 C  
+DOCKED: ATOM      6  O   UNL     1      20.588  27.845  55.928 -0.89 -0.05    -0.283 OA 
+DOCKED: ATOM      7  C   UNL     1      22.289  29.254  56.768 -0.43 -0.01    +0.051 A  
+DOCKED: ATOM      8  C   UNL     1      22.849  28.213  57.528 -0.63 -0.00    +0.017 A  
+DOCKED: ATOM      9  C   UNL     1      23.975  28.454  58.307 -0.52 -0.02    +0.040 A  
+DOCKED: ATOM     10  C   UNL     1      24.529  29.727  58.318 -0.36 -0.05    +0.125 A  
+DOCKED: ATOM     11  F   UNL     1      25.614  29.964  59.066 -0.09 +0.12    -0.207 F  
+DOCKED: ATOM     12  C   UNL     1      23.979  30.766  57.568 -0.33 -0.01    +0.066 A  
+DOCKED: ATOM     13  C   UNL     1      22.842  30.556  56.772 -0.36 -0.00    +0.055 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  14
+DOCKED: ATOM     14  S   UNL     1      19.067  29.847  54.157 -0.65 -0.00    -0.013 S  
+DOCKED: ATOM     15  C   UNL     1      19.827  30.132  52.539 -0.29 +0.13    +0.346 C  
+DOCKED: ATOM     16  O   UNL     1      18.052  31.126  54.461 +0.02 -0.18    -0.612 OA 
+DOCKED: ENDBRANCH   4  14
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -5.97 |  16 |     -5.97 |  49 |#################################################
+   2 |     -5.93 |   8 |     -5.93 |   1 |#
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1     16       -5.97      0.00     66.22           RANKING
+   1      2      2       -5.97      0.02     66.22           RANKING
+   1      3     32       -5.97      0.02     66.22           RANKING
+   1      4     26       -5.97      0.02     66.21           RANKING
+   1      5     13       -5.97      0.02     66.22           RANKING
+   1      6     36       -5.97      0.02     66.22           RANKING
+   1      7     37       -5.97      0.01     66.21           RANKING
+   1      8     20       -5.97      0.01     66.22           RANKING
+   1      9      9       -5.97      0.01     66.21           RANKING
+   1     10      1       -5.97      0.01     66.22           RANKING
+   1     11     48       -5.97      0.01     66.21           RANKING
+   1     12     31       -5.97      0.02     66.22           RANKING
+   1     13     29       -5.97      0.02     66.23           RANKING
+   1     14     21       -5.97      0.02     66.22           RANKING
+   1     15     28       -5.97      0.01     66.22           RANKING
+   1     16     33       -5.97      0.02     66.22           RANKING
+   1     17     25       -5.97      0.02     66.21           RANKING
+   1     18     22       -5.97      0.02     66.22           RANKING
+   1     19     47       -5.97      0.01     66.22           RANKING
+   1     20      6       -5.97      0.02     66.22           RANKING
+   1     21      7       -5.97      0.02     66.23           RANKING
+   1     22     17       -5.97      0.02     66.22           RANKING
+   1     23     38       -5.97      0.02     66.23           RANKING
+   1     24     34       -5.97      0.02     66.22           RANKING
+   1     25     30       -5.97      0.03     66.22           RANKING
+   1     26     18       -5.97      0.02     66.22           RANKING
+   1     27     11       -5.97      0.01     66.23           RANKING
+   1     28     24       -5.97      0.02     66.21           RANKING
+   1     29      5       -5.97      0.03     66.22           RANKING
+   1     30     15       -5.97      0.02     66.22           RANKING
+   1     31     44       -5.97      0.02     66.22           RANKING
+   1     32     43       -5.97      0.03     66.21           RANKING
+   1     33     46       -5.97      0.03     66.22           RANKING
+   1     34     50       -5.97      0.04     66.22           RANKING
+   1     35     39       -5.97      0.03     66.22           RANKING
+   1     36     14       -5.97      0.02     66.22           RANKING
+   1     37     42       -5.97      0.02     66.22           RANKING
+   1     38      4       -5.97      0.02     66.22           RANKING
+   1     39     49       -5.97      0.03     66.23           RANKING
+   1     40     10       -5.97      0.02     66.21           RANKING
+   1     41     41       -5.97      0.02     66.21           RANKING
+   1     42     12       -5.97      0.02     66.22           RANKING
+   1     43      3       -5.97      0.01     66.23           RANKING
+   1     44     23       -5.96      0.02     66.21           RANKING
+   1     45     27       -5.96      0.01     66.22           RANKING
+   1     46     40       -5.96      0.02     66.20           RANKING
+   1     47     45       -5.96      0.02     66.22           RANKING
+   1     48     35       -5.96      0.02     66.22           RANKING
+   1     49     19       -5.96      0.04     66.22           RANKING
+   2      1      8       -5.93      0.00     68.43           RANKING
+
+Run time 2.616 sec
+Idle time 0.454 sec
